@@ -89,8 +89,7 @@ console.log("#4Emp", employee4);
 // Output the following information to the console for each employee: Full name, Department name, Expertise/responsibility
             // Michael Slazinski works in operations, in headquarters, and is responsible for compliance.
 
-console.log(`${employee3.firstName} ${employee3.lastName} works in  ${employee3.jobType}, in the ${employee3.location.location} 
-              ${employee3.location.deptName} location, and is responsible for ${employee3.responsibility}.`);
+console.log(`${employee3.firstName} ${employee3.lastName} works in  ${employee3.jobType}, in the ${employee3.location.location} ${employee3.location.deptName} location, and is responsible for ${employee3.responsibility}.`);
 
 console.log(employee4.firstName + " " + employee4.lastName + " works in " + employee4.jobType + ", in the " + employee4.location.location + 
             " " + employee4.location.deptName + " location, and is responsible for " + employee4.responsibility + ".");
